@@ -2,7 +2,7 @@ totalSlides = document.querySelectorAll(".slider-item").length
 let currentSlide = 0;
 
 
-document.querySelector(".slider-width").style.width = `calc(100vw * ${totalSlides})`
+document.querySelector(".slider-width").style.width = `calc(100vw * ${totalSlides})`                               //definindo a largura da minha tela  com base na quantidade de imagens que eu tenho
 document.querySelector(".slider-controls").style.height = `${document.querySelector(".slider").clientHeight}px`
 
 
